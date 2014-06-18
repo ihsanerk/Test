@@ -9,7 +9,7 @@ public class Class1 {
 
 	Scanner sc = new Scanner(System.in);
 
-	/**parcourir et afficher tableau*/
+	/**parcourir et afficher tableau**/
 	public void parcourirTableau(int[] tab)
 	{
 		for (int i=0; i< tab.length; i++){
@@ -131,13 +131,13 @@ public class Class1 {
 				}
 
 			}
-			if (a==1) {System.out.println("\nle nombre "+val+" existe dans le tableau et a pour coordonnŽes ("+b+")");
-			System.out.println("\nSi vous voulez cherchez un autre nombre appuyez encore et rŽesseyez");}
+			if (a==1) {System.out.println("\nle nombre "+val+" existe dans le tableau et a pour coordonnï¿½es ("+b+")");
+			System.out.println("\nSi vous voulez cherchez un autre nombre appuyez encore et rï¿½esseyez");}
 			else {System.out.println("\nle nombre "+val+" n'existe pas dans le tableau");	
-			System.out.println("\nSi vous voulez cherchez un autre nombre appuyez encore et rŽesseyez");}
+			System.out.println("\nSi vous voulez cherchez un autre nombre appuyez encore et rï¿½esseyez");}
 		}
 		catch (InputMismatchException e){
-			System.out.print("\nLa valeur entrŽe ne correspond pas ˆ un entier\n Appuyez encore et rŽesseyez");
+			System.out.print("\nLa valeur entrï¿½e ne correspond pas ï¿½ un entier\n Appuyez encore et rï¿½esseyez");
 			sc.nextLine();
 		}
 	}
