@@ -139,7 +139,7 @@ public class Class1 {
 		catch (InputMismatchException e){
 			System.out.print("\nLa valeur entr�e ne correspond pas � un entier\n Appuyez encore et r�esseyez");
 			sc.nextLine();
-		}
+		}//lol
 	}
 
 
